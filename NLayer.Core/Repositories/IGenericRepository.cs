@@ -25,6 +25,6 @@ namespace NLayer.Core.Repositories
 
         void Remove(T entity);
 
-        Task RemoveRange(IEnumerable<T> entities);
+        void RemoveRange(IEnumerable<T> entities);
     }
 }
